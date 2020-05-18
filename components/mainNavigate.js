@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Text, View ,StyleSheet,Image,Button} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import {AsyncStorage} from 'react-native';
 
 //导入页面
 import HomeStackNavigator from '../components/homeStackNavigator';
@@ -100,6 +101,8 @@ function MyTabs() {
 }
 
 export default function App() {
+  // 声明state对象
+  const state = { isShowingText: true };
   return (
     <NavigationContainer>
       <MyTabs />
