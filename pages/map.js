@@ -9,15 +9,3 @@ export default class Map extends Component{
         )
     }
 }
-
-function MyBackButton() {
-    const navigation = useNavigation();
-    return (
-        <Button
-        title="Back"
-        onPress={() => {
-            navigation.goBack();
-        }}
-        />
-    );
-}

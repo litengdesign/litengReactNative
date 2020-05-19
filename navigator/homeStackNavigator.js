@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Button, Text, View,Image,StyleSheet } from 'react-native';
+
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
@@ -52,7 +53,8 @@ function HomeStackScreen() {
           },
           headerLeft:()=>(
             <View style={styles.headerIcon}>
-              <Text style={styles.headerText} onPress={() => alert('This is a button!')}>消息</Text>
+              <Text style={styles.headerText} onPress={() => alert('This is a button!')}>盐城</Text>
+              <Image style={styles.arrow_down} source={require('./../assets/arrow_down.png')}/>
             </View>
           ),
           headerRight:()=>(
@@ -94,9 +96,13 @@ const styles = StyleSheet.create({
     color:'#000'
   },
   headerIcon:{
+    flexDirection:'row',
+    justifyContent:'center',
+    alignItems:'center',
     padding:10,
   },
   headerText:{
+    marginRight:5,
     color:'#000'
   },
   avatars:{
@@ -111,5 +117,9 @@ const styles = StyleSheet.create({
     fontSize:10,
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  arrow_down:{
+    width:16,
+    height:10,
   }
 })
