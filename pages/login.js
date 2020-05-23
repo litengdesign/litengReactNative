@@ -11,7 +11,7 @@ export default class Login extends Component{
     }
     //登录
     loginIn = ()=>{
-        this.props.navigation.navigate('Home',{token:'token is'});  
+        this.props.navigation.navigate('Home',{token:'登录成功，这是一串token'});  
     }
 }
 
