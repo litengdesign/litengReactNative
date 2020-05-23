@@ -2,7 +2,6 @@
 import React , {Component} from 'react';
 import { Text, View,Button,StyleSheet,FlatList,Alert,Image,TouchableOpacity,Dimensions} from 'react-native';
 // import { WebView } from 'react-native-webview';
-
 //引入对应的组件
 import {SystemBox} from '../components/systemBox';
 const {width,height} = Dimensions.get("window");//第一种写法
@@ -91,8 +90,13 @@ export default class HomeScreen extends Component{
                 </TouchableOpacity>
                 </View>
                 <View style={[styles.container,styles.backgroundWhite]}>
-                <Text>地图</Text>
-                {/* <WebView source={{ uri: 'https://reactnative.dev/' }} />; */}
+                <Text>地图webview</Text>
+                <View style={styles.container}>
+                        {/* <WebView
+                        style={{ width: width, height: height }}
+                        source={{ uri: "https://reactnative.cn/" }}
+                        /> */}
+                    </View>
                 </View>
                 <View style={[styles.backgroundGray,styles.container]}>
                 <Text>曲线</Text>

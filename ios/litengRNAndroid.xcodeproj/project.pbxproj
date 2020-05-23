@@ -17,6 +17,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* litengRNAndroidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* litengRNAndroidTests.m */; };
+		40D8ABA8247912F700E8D58B /* ios in Resources */ = {isa = PBXBuildFile; fileRef = 40D8ABA7247912F700E8D58B /* ios */; };
 		A74E31C888DF623BFF0D2FCF /* libPods-litengRNAndroid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F98C25017300B4BE5516CE6 /* libPods-litengRNAndroid.a */; };
 		DDB2690A9FDD6A8E12EF8C38 /* libPods-litengRNAndroid-litengRNAndroidTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC38073D561BD49B4A5ECE88 /* libPods-litengRNAndroid-litengRNAndroidTests.a */; };
 		F925242405FB8EFD193F4921 /* libPods-litengRNAndroid-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB94DB3A286E7286AF391537 /* libPods-litengRNAndroid-tvOSTests.a */; };
@@ -53,6 +54,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = litengRNAndroid/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* litengRNAndroid-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "litengRNAndroid-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* litengRNAndroid-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "litengRNAndroid-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D8ABA7247912F700E8D58B /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; sourceTree = "<group>"; };
 		449C51FE553BCE68D6A326BA /* Pods-litengRNAndroid-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-litengRNAndroid-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-litengRNAndroid-tvOSTests/Pods-litengRNAndroid-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		4E359319392ECD645C74E30E /* Pods-litengRNAndroid-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-litengRNAndroid-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-litengRNAndroid-tvOS/Pods-litengRNAndroid-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		6413446F9068AD0699EC09E8 /* Pods-litengRNAndroid-litengRNAndroidTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-litengRNAndroid-litengRNAndroidTests.release.xcconfig"; path = "Target Support Files/Pods-litengRNAndroid-litengRNAndroidTests/Pods-litengRNAndroid-litengRNAndroidTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,13 +163,13 @@
 				D1E6CA9CFB692D69ACDB2AC9 /* Pods-litengRNAndroid-tvOSTests.debug.xcconfig */,
 				449C51FE553BCE68D6A326BA /* Pods-litengRNAndroid-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				40D8ABA7247912F700E8D58B /* ios */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -338,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D8ABA8247912F700E8D58B /* ios in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
