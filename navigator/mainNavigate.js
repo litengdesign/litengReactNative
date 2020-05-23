@@ -14,7 +14,6 @@
   const Tab =  createBottomTabNavigator();
 
   function MyTabs() {
-    const state = {isLogin:true}
     return (
       <Tab.Navigator
           initialRouteName="Home"
@@ -90,7 +89,7 @@
       </Tab.Navigator>
     );
   }
-  export default function App() {
+  export default function App({navigation,route}) {
     return (
       <MyTabs/>
     );
