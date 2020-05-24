@@ -90,13 +90,7 @@ export default class HomeScreen extends Component{
                 </TouchableOpacity>
                 </View>
                 <View style={[styles.container,styles.backgroundWhite]}>
-                <Text>地图webview</Text>
-                <View style={styles.container}>
-                        {/* <WebView
-                        style={{ width: width, height: height }}
-                        source={{ uri: "https://reactnative.cn/" }}
-                        /> */}
-                    </View>
+                <Text>地图</Text>
                 </View>
                 <View style={[styles.backgroundGray,styles.container]}>
                 <Text>曲线</Text>
